@@ -53,7 +53,7 @@ describe('WCAG Accessibility Tests', () => {
 
     const performLogin = async (page) => {
         // Check if login is required
-        const loginRequired = await page.$('input[type="email"], input[type="password"]');
+        const loginRequired = await page.$(submitButton);
         if (loginRequired && username && password) {
             console.log('Credentials provided. Proceeding with login...');
 
