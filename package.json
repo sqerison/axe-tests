@@ -20,6 +20,7 @@
     "axe-core": "^4.10.2",
     "jest": "^29.7.0",
     "jest-html-reporter": "^3.10.2",
+    "junit-report-builder": "5.1.1",
     "puppeteer": "^24.0.0",
     "dotenv": "^16.4.7"
   }
